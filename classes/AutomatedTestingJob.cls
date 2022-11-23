@@ -3,7 +3,6 @@
 * stores the failures in ErrorLog__c, and sends the errors to Slack (using ReportEmailerScheduler)
 * the class that actually runs the tests is AutomatedTestingJobQueuer, which should run at 10pm every week night
 * this class can be scheduled to run at 2am ( a few hours after all tests should have run)
-* DevOps item: https://dev.azure.com/infinitas/Converse/_workitems/edit/176293
 */
 global with sharing class AutomatedTestingJob implements Schedulable {
     global void execute(SchedulableContext SC) {
