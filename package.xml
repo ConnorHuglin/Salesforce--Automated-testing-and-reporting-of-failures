@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutomatedTestingAndEmailing</fullName>
+    <types>
+        <members>AutomatedTestingJob</members>
+        <members>AutomatedTestingJobQueuer</members>
+        <members>AutomatedTestingJobQueuer_Test</members>
+        <members>AutomatedTestingJob_Test</members>
+        <members>ReportEmailerScheduler</members>
+        <members>ReportEmailerSchedulerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AutomatedTestingQueue__c.AsyncId__c</members>
+        <members>ErrorLog__c.ClassName__c</members>
+        <members>ErrorLog__c.DMLNumberOfFailedRows__c</members>
+        <members>ErrorLog__c.DMLStatusCode__c</members>
+        <members>ErrorLog__c.Errororigin__c</members>
+        <members>ErrorLog__c.ExceptionMessage__c</members>
+        <members>ErrorLog__c.ExceptionType__c</members>
+        <members>ErrorLog__c.GovtLimitExecutingCode__c</members>
+        <members>ErrorLog__c.LineNumber__c</members>
+        <members>ErrorLog__c.MethodName__c</members>
+        <members>ErrorLog__c.RelatedToId__c</members>
+        <members>ErrorLog__c.StackTrace__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>AutomatedTestingQueue__c</members>
+        <members>ErrorLog__c</members>
+        <members>Report_Emailer_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>AutomatedTestingQueue__c-Automated Testing Queue Layout</members>
+        <members>ErrorLog__c-Error Log Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>56.0</version>
+</Package>
