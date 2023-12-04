@@ -62,8 +62,6 @@ global with sharing class AutomatedTestingJob implements Schedulable {
                     }
                 }
 
-                // CH - 2022/10/25: queuedTestsToDelete sometimes contains duplicates, so create a set<Id> and query queuedTestsToDelete from the set<Id>
-                // https://dev.azure.com/infinitas/Converse/_workitems/edit/185168
                 List<AutomatedTestingQueue__c> queuedTestsToDelete = new List<AutomatedTestingQueue__c>(); 
                 Set<Id> queuedTestsToDeleteIdSet = new Set<Id>();
                 
